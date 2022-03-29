@@ -1,6 +1,8 @@
 body {
 background-color: #E7E7E7;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+max-width: 900px;
+margin: auto;
 }
 
 #title, .subTitle, .postTitle {
@@ -36,10 +38,12 @@ a {
     margin: 0px;
     margin-bottom: 10px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .postImg {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .imgAutor {
@@ -50,3 +54,11 @@ a {
 
 }
 
+.contextList {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contextList li a {
+    text-decoration: none;
+}
